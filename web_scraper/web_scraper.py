@@ -10,9 +10,9 @@ print(res)
 list_with_citation = []
 
 
-# soup = BeautifulSoup(res.content, "html.parser")
+soup = BeautifulSoup(res.content, "html.parser")
 
-# pararaph_list = soup.find_all("p")
+pararaph_list = soup.find_all("p")
 
 # for item in pararaph_list:
 #     for string in item.stripped_strings:
